@@ -24,8 +24,10 @@ This project uses machine learning to recognize faces and record attendance base
 - After training is complete, a camera window will pop up for testing. Use this to verify the model's recognition performance.
 
 ### 5. Run the Attendance App
-- To track attendance, open and run `attendance_app.py`.
+- To track attendance, open and run `attendance_app.py`. 
+
+### Note
+- Incase if you want to delete attendance log there is a python file called `DatabaseManipulation.py` which if you run will completely clear all the values in the table `attendancelog`
 
 ---
 
-Enjoy using the ML-based attendance system!
